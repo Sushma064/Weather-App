@@ -1,91 +1,89 @@
-# ⏱️ Stopwatch Web Application
+# 🌤️ Weather App
 
-A simple, responsive, and interactive **Stopwatch Web Application** built using **HTML, CSS, and JavaScript**. This project allows users to accurately measure elapsed time with an easy-to-use interface.
+A simple and responsive **Weather Application** built using **HTML, CSS, and JavaScript**. The application provides a clean interface for checking weather information and demonstrates the use of JavaScript, API integration, and dynamic webpage updates.
 
-## 🚀 Features
+## ✨ Features
 
-* ▶️ **Start** the stopwatch
-* ⏸️ **Pause** the stopwatch
-* 🔄 **Reset** the stopwatch
-* 🏁 **Lap** functionality to record lap times
-* ⏱️ Real-time time tracking
-* 📱 Responsive and user-friendly interface
-* 🎨 Clean and simple design
+* 🌍 Search for weather information
+* 🌡️ Display current temperature
+* 💧 Show humidity information
+* 🌬️ Display wind speed
+* ☁️ Show weather conditions
+* 🔄 Dynamic weather data
+* 📱 Responsive design
+* 🎨 Clean and user-friendly interface
 
 ## 🛠️ Technologies Used
 
 * **HTML5** – Structure of the application
-* **CSS3** – Styling and responsive design
-* **JavaScript** – Stopwatch functionality and user interactions
+* **CSS3** – Styling and responsive layout
+* **JavaScript** – Application logic and API handling
+* **Weather API** – Fetching real-time weather information
 
 ## 📂 Project Structure
 
 ```text
-Stopwatch-Web-Application/
+Weather-App/
 │
 ├── index.html      # Main HTML file
-├── style.css       # Styling and layout
-├── script.js       # Stopwatch functionality
+├── style.css       # Styling and responsive design
+├── script.js       # JavaScript functionality
 └── README.md       # Project documentation
 ```
 
-## 💻 How to Run
+## 🚀 Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Sushma064/Stopwatch-Web-Application.git
-```
-
-### 2. Open the project
-
-Go to the project folder:
+### 1. Clone the Repository
 
 ```bash
-cd Stopwatch-Web-Application
+git clone https://github.com/Sushma064/Weather-App.git
 ```
 
-### 3. Run the application
+### 2. Open the Project
 
-Open `index.html` in your web browser.
-
-You can also use the **Live Server** extension in VS Code for a better development experience.
-
-## 🎯 How It Works
-
-1. Click **Start** to begin the stopwatch.
-2. Click **Pause** to temporarily stop the timer.
-3. Click **Lap** to record the current lap time.
-4. Click **Reset** to reset the stopwatch and clear the recorded laps.
-
-## 📸 Project Preview
-
-Add a screenshot of your stopwatch here:
-
-```markdown
-![Stopwatch Web Application](screenshot.png)
+```bash
+cd Weather-App
 ```
 
-## 🌱 Learning Outcomes
+### 3. Run the Application
 
-Through this project, I practiced:
+Open `index.html` in your browser.
 
-* Creating web layouts using HTML
-* Styling interfaces using CSS
-* Working with JavaScript timers
-* Handling button click events
-* Updating HTML elements dynamically
-* Managing application state
-* Building an interactive web application
+For the best development experience, you can use the **Live Server** extension in VS Code.
+
+## 🔑 API Setup
+
+If your application uses an API key, add your API key inside `script.js` where required.
+
+For example:
+
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+> ⚠️ Never upload a private API key to a public GitHub repository. Use environment variables or another secure method for production applications.
+
+## 🎯 Learning Outcomes
+
+This project helped me practice:
+
+* HTML page structure
+* CSS styling and responsive design
+* JavaScript DOM manipulation
+* Fetching data from APIs
+* Working with JSON data
+* Handling user input
+* Updating webpage content dynamically
+* Building real-world web applications
 
 ## 🔮 Future Improvements
 
-* Add dark/light mode
-* Add milliseconds display
-* Add sound notifications
-* Save lap history using Local Storage
-* Add keyboard controls
-* Improve animations and UI
+* 📍 Add automatic location detection
+* 🌙 Add dark/light mode
+* 📅 Add a 5-day weather forecast
+* 🌧️ Add weather animations
+* 🗺️ Add multiple-city weather comparison
+* 💾 Store recently searched cities
 
 ## 👩‍💻 Author
 
@@ -95,7 +93,7 @@ GitHub: [Sushma064](https://github.com/Sushma064)
 
 ## ⭐ Support
 
-If you found this project useful, consider giving the repository a ⭐ on GitHub!
+If you like this project, consider giving the repository a ⭐ on GitHub!
 
 ---
 
